@@ -36,7 +36,6 @@ class HashMapa:
             temp = self.res(temp, i)
             i += 1
 
-
         if self.tab[temp] and self.tab[temp] is not self.size:
             return self.tab[temp][1]
         else:
